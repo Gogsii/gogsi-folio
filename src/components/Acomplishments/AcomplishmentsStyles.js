@@ -11,6 +11,7 @@ export const Boxes = styled.div`
     gap: 16px;
     margin: 20px 0 32px;
     grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    padding-right: inherit;
   }
 
   @media ${props => props.theme.breakpoints.sm}{

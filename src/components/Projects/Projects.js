@@ -11,28 +11,35 @@ const Projects = () => (
     <GridContainer>
       {projects.map(({ id, image, title, description, source, tags, visit }) => (
         <BlogCard key={id}>
-          <Img src={image} />
+          {/* <Img src={image} /> */}
           <TitleContent>
             <HeaderThree>{title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent style={{marginTop: 15, color: '#9cc9e3' }}>Built using:</TitleContent>
             <TagList>
-              {tags.map((tags, key) => (
-                <Tag key={key}>{tags}</Tag>
+              {tags.map((tags, index) => (
+                <Tag key={index}>{tags}</Tag>
               ))}
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Code</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+                { visit ?
+                  <ExternalLinks href={visit}>Demo</ExternalLinks>
+                  : ''
+                }
+                {source ? 
+                  <ExternalLinks href={source}>Code</ExternalLinks>
+                  : ''
+                }
           </UtilityList>
         </BlogCard>
       ))}
     </GridContainer>
   </Section>
+
 );
 
 export default Projects;

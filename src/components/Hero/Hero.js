@@ -1,22 +1,25 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
+import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents/index';
+// import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
 const Hero = () => (
-  <Section row nopadding>
+  <>
+  <Section row nopadding >
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        Hello, I'm
+          <br />
+        Goran Dragutinović
       </SectionTitle>
       <SectionText>
-        I am a Javascript enthusiast versed in React, Node, Mongo DB and Express. I am looking for an entry-level soft dev role.
+        A digital entrepreneur and a Javascript enthusiast versed in React, Node, MongoDB and Express. 
       </SectionText>
-      <Button onClick={() => window.location ='#about'}>Learn More</Button>
+      {/* <Button onClick={() => window.location ='#about'}>Learn More</Button> */}
     </LeftSection>
   </Section>
+  </>
 );
 
 export default Hero;

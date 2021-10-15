@@ -9,36 +9,36 @@ const Technologies = () =>  (
     <br/>
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked primarily with JavaScript and the MERN stack. I have also been working with WordPress for 10 years and can read php.
+      I've worked primarily with JavaScript and the MERN stack. I have also been working with WordPress for 10 years and have experience with HTML and CSS, as well as a good understanding of PHP.
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size='3rem' />
+        <DiReact size='5rem' />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
             <ListParagraph>
               Experience with <br />
-              React.js, HTML, CSS.
+              JS, React.js, HTML, CSS.
             </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiFirebase size='5rem' />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
             <ListParagraph>
               Experience with <br />
-              Node.js and Databases
+              Node.js, Express and MongoDB
             </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiDebian size='3rem' />
+        <DiDebian size='5rem' />
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
             <ListParagraph>
               Experience with <br />
-              tools like Figma, Adobe PSD and AI.
+              tools like Figma, Adobe PS and AI.
             </ListParagraph>
         </ListContainer>
       </ListItem>
