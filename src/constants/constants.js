@@ -18,13 +18,13 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Hashtag Income',
-    description: "This is a WordPress website I started as a passion project. I manually aggregate and write up blog pieces to do with financial statistics. In the future I hope to use it as an opportunity to practice my programming skills by developing small financial digital tools for it.",
+    title: 'Astrologyed',
+    description: "This is a fun little WordPress project to experiment with things like creating WordPress widgets and feeding API data to the user. It is a free daily, weekly, and monthly Horoscope website. I also created a function to automatically redirect user for sign-to-sign compatiblity aspect of the website.",
     image: '/images/4.jpg',
-    tags: ['WordPress', 'HostGator'],
+    tags: ['WordPress', 'Custom CSS', 'Rapid API'],
     source: '',
-    visit: 'https://hashtagincome.com',
-    id: 2,
+    visit: 'https://www.astrologyed.com/',
+    id: 5,
   },
   {
     title: 'Top10Supps',
@@ -45,14 +45,15 @@ export const projects = [
     id: 4,
   },
   {
-    title: 'GymVentures',
-    description: "This is a popular fitness blog I created in 2014 using the Ghost blogging platform. It's currently on auto-pilot and continues to rank highly in Google search results for some very competetive keywords. Among other duties, I performed SEO and Content Management on the site for over 3 years.",
+    title: 'Hashtag Income',
+    description: "This is a WordPress website I started as a passion project. I manually aggregate and write up blog pieces to do with financial statistics. In the future I hope to use it as an opportunity to practice my programming skills by developing small financial digital tools for it.",
     image: '/images/4.jpg',
-    tags: ['Ghost', 'Custom CSS'],
+    tags: ['WordPress', 'HostGator'],
     source: '',
-    visit: 'https://www.gymventures.com/',
-    id: 5,
+    visit: 'https://hashtagincome.com',
+    id: 2,
   },
+
 ];
 
 export const TimeLineData = [
