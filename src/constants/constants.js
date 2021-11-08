@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Crypto World',
+    description: "React app displaying cryptocurrency statistics, news, and exchange data. Designed using the Ant Design UI with some custom CSS. Used the Redux Toolkit for store management and API calls. Utilized Rapid API for data and deployed to Netlify.",
+    image: '/images/4.jpg',
+    tags: ['React', 'Redux', 'Ant Design', 'Rapid API'],
+    source: '',
+    visit: 'https://www.astrologyed.com/',
+    id: 5,
+  },
+  {
     title: 'Dividend Screener',
     description: "Currently building an app to screen whether a stock pays dividends or not. Implemented Routing, Controllers, Redux, Form, Likes, Comments, Delete, Edit, Google OAuth, JWT, Auth Middleware, Pagination, and Search. Deployed with Heroku and Netlify. ",
     image: '/images/dividend_screener.png',
@@ -18,21 +27,11 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Astrologyed',
-    description: "This is a fun little WordPress project to experiment with things like creating WordPress widgets and feeding API data to the user. It is a free daily, weekly, and monthly Horoscope website. I also created a function to automatically redirect user for sign-to-sign compatiblity aspect of the website.",
-    image: '/images/4.jpg',
-    tags: ['WordPress', 'Custom CSS', 'Rapid API'],
-    source: '',
-    visit: 'https://www.astrologyed.com/',
-    id: 5,
-  },
-  {
     title: 'Top10Supps',
     description: "This is a supplement reviews website I started with my brother in 2013. Over the years it has provided millions of visitors with expertly written guides and recommedations for various fitness goals. I've hired many developers, designers, and writers through this websites journey.",
       image: '/images/3.jpg',
       tags: ['WordPress', 'Custom PHP'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://top10supps.com',
     id: 3,
   },
   {
