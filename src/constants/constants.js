@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/4.jpg',
     tags: ['React', 'Redux', 'Ant Design', 'Rapid API'],
     source: '',
-    visit: 'https://www.astrologyed.com/',
+    visit: 'https://cryptorealm.netlify.app/',
     id: 5,
   },
   {
