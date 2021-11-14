@@ -3,19 +3,19 @@ export const projects = [
     title: 'Hashtag Income',
     description: "A HeadlessCMS blog built with NextJS, Tailwind CSS, GraphQL plus GraphCMS. Implemented featured and recent posts, comments, categories, author info, previous/next article, and article markdown. Deployed with Vercel.",
     image: '/images/4.jpg',
-    tags: ['NextJS', 'GraphCMS, GraphQL, '],
+    tags: ['NextJS', 'GraphQL', 'GraphCMS', 'Tailwind' ],
     source: 'https://github.com/Gogsii/hashtag-income.git',
     visit: 'https://hashtagincome.com',
-    id: 2,
+    id: 0,
   },
   {
     title: 'Crypto World',
     description: "React app displaying cryptocurrency statistics, news, and exchange data. Designed using the Ant Design UI with some custom CSS. Used the Redux Toolkit for store management and API calls. Utilized Rapid API for data and deployed to Netlify.",
     image: '/images/4.jpg',
     tags: ['React', 'Redux', 'Ant Design', 'Rapid API'],
-    source: '',
+    source: 'https://github.com/Gogsii/react-crypto-app.git',
     visit: 'https://cryptorealm.netlify.app/',
-    id: 5,
+    id: 1,
   },
   {
     title: 'Dividend Screener',
@@ -24,7 +24,7 @@ export const projects = [
     tags: ['MERN + MUI'],
     source: 'https://github.com/Gogsii/dividend_screener.git',
     visit: 'https://dividendscreener.netlify.app/',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Campsite Grounds',
@@ -33,7 +33,7 @@ export const projects = [
     tags: ['MERN', 'Bootstrap', 'Expo'],
     source: 'https://github.com/Gogsii/campsites-app.git',
     visit: 'https://nucampsites.netlify.app/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Top10Supps',
@@ -41,7 +41,7 @@ export const projects = [
       image: '/images/3.jpg',
       tags: ['WordPress', 'Custom PHP'],
     visit: 'https://top10supps.com',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Afrikanza',
@@ -50,7 +50,7 @@ export const projects = [
     tags: ['Shopify', 'Custom CSS', 'Figma'],
     source: '',
     visit: 'https://afrikanza.com/',
-    id: 4,
+    id: 5,
   },
 
 ];
