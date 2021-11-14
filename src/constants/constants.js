@@ -5,7 +5,7 @@ export const projects = [
     image: '/images/4.jpg',
     tags: ['NextJS', 'GraphQL', 'GraphCMS', 'Tailwind' ],
     source: 'https://github.com/Gogsii/hashtag-income.git',
-    visit: 'https://hashtagincome.com',
+    visit: 'https://hashtag-income.vercel.app/',
     id: 0,
   },
   {
