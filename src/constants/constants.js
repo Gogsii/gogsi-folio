@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: 'Hashtag Income',
+    description: "A HeadlessCMS blog built with NextJS plus Tailwind CSS, GraphQL plus GraphCMS, and deployed with Vercel. Implemented featured and recent posts, comments, categories, author info, and article markdown. ",
+    image: '/images/4.jpg',
+    tags: ['NextJS', 'GraphCMS, GraphQL, '],
+    source: '',
+    visit: 'https://hashtagincome.com',
+    id: 2,
+  },
+  {
     title: 'Crypto World',
     description: "React app displaying cryptocurrency statistics, news, and exchange data. Designed using the Ant Design UI with some custom CSS. Used the Redux Toolkit for store management and API calls. Utilized Rapid API for data and deployed to Netlify.",
     image: '/images/4.jpg',
@@ -42,15 +51,6 @@ export const projects = [
     source: '',
     visit: 'https://afrikanza.com/',
     id: 4,
-  },
-  {
-    title: 'Hashtag Income',
-    description: "This is a WordPress website I started as a passion project. I manually aggregate and write up blog pieces to do with financial statistics. In the future I hope to use it as an opportunity to practice my programming skills by developing small financial digital tools for it.",
-    image: '/images/4.jpg',
-    tags: ['WordPress', 'HostGator'],
-    source: '',
-    visit: 'https://hashtagincome.com',
-    id: 2,
   },
 
 ];
