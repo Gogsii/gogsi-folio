@@ -1,10 +1,10 @@
 export const projects = [
   {
     title: 'Hashtag Income',
-    description: "A HeadlessCMS blog built with NextJS plus Tailwind CSS, GraphQL plus GraphCMS, and deployed with Vercel. Implemented featured and recent posts, comments, categories, author info, and article markdown. ",
+    description: "A HeadlessCMS blog built with NextJS, Tailwind CSS, GraphQL plus GraphCMS. Implemented featured and recent posts, comments, categories, author info, previous/next article, and article markdown. Deployed with Vercel.",
     image: '/images/4.jpg',
     tags: ['NextJS', 'GraphCMS, GraphQL, '],
-    source: '',
+    source: 'https://github.com/Gogsii/hashtag-income.git',
     visit: 'https://hashtagincome.com',
     id: 2,
   },
