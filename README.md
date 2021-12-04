@@ -1,3 +1,3 @@
 ## Personal Portfolio
 
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+My personal portfolio. A work in progress.
