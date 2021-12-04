@@ -5,7 +5,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
+  grid-column-gap: 0rem;
   padding: 1rem;
   padding-top: 2rem;
 
@@ -13,7 +13,7 @@ export const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     flex-flow: column;
-    justify-content: center;
+    align-items: flex-start;
     padding-top: 0px;
     }
   }
@@ -33,7 +33,7 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 5;
+  grid-area: 1 / 4;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,7 +68,7 @@ export const NavLink = styled.a`
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
   }
 `;
 
