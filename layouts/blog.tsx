@@ -55,7 +55,7 @@ export default function BlogLayout({
           <div className="text-sm text-gray-700 dark:text-gray-300">
             <a
               href={`https://mobile.twitter.com/search?q=${encodeURIComponent(
-                `https://leerob.io/blog/${post.slug}`
+                `https://dragutinov.com/blog/${post.slug}`
               )}`}
               target="_blank"
               rel="noopener noreferrer"
