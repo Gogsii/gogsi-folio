@@ -14,7 +14,7 @@ export default function BlogLayout({
 }: PropsWithChildren<{ post: Post }>) {
   return (
     <Container
-      title={`${post.title} – Goran Dragutinovic`}
+      title={`${post.title} – Goran D.`}
       description={post.excerpt}
       image={urlForImage(post.coverImage).url()}
       date={new Date(post.date).toISOString()}
@@ -35,7 +35,7 @@ export default function BlogLayout({
               className="rounded-full"
             />
             <p className="ml-2 text-sm text-gray-700 dark:text-gray-300">
-              {'Goran D. / '}
+              {'Goran Dragutinovic / '}
               {format(parseISO(post.date), 'MMMM dd, yyyy')}
             </p>
           </div>
@@ -64,7 +64,7 @@ export default function BlogLayout({
             </a>
             {` • `}
             <a
-              href="https://github.com/leerob/leerob.io/issues"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
             >

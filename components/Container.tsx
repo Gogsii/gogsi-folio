@@ -38,8 +38,8 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Goran Dragutinovic – Blockchain developer, SEO, creator.',
-    description: `Solidity developer, JavaScript enthusiast, and niche site creator.`,
+    title: 'Goran Dragutinovic – Blockchain Developer, SEO, creator.',
+    description: `Solidity developer, JavaScript enthusiast, and entrepreneur.`,
     image: '',
     type: 'website',
     ...customMeta
@@ -51,7 +51,10 @@ export default function Container(props) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://dragutinov.com${router.asPath}`} />
+        <meta
+          property="og:url"
+          content={`https://dragutinov.com${router.asPath}`}
+        />
         <link rel="canonical" href={`https://dragutinov.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Goran Dragutinovic" />
@@ -59,7 +62,7 @@ export default function Container(props) {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@leeerob" />
+        <meta name="twitter:site" content="@gogsii" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
@@ -78,7 +81,7 @@ export default function Container(props) {
             <NavItem href="/guestbook" text="Guestbook" />
             <NavItem href="/dashboard" text="Dashboard" />
             <NavItem href="/blog" text="Blog" />
-            <NavItem href="/snippets" text="Snippets" />
+            <NavItem href="/projects" text="Projects" />
           </div>
           <button
             aria-label="Toggle Dark Mode"

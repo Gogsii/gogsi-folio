@@ -42,17 +42,16 @@ export default function Subscribe() {
   return (
     <div className="border border-blue-200 rounded p-6 my-4 w-full dark:border-gray-800 bg-blue-50 dark:bg-blue-opaque">
       <p className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100">
-        Subscribe to the newsletter
+        Subscribe to my fintech newsletter
       </p>
       <p className="my-1 text-gray-800 dark:text-gray-200">
-        Get emails from me about web development, tech, and early access to new
-        articles.
+        Once a week I send out a curated list of things that happened in the FinTech industry.
       </p>
       <form className="relative my-4" onSubmit={subscribe}>
         <input
           ref={inputEl}
           aria-label="Email for newsletter"
-          placeholder="tim@apple.com"
+          placeholder="musk@tesla.com"
           type="email"
           autoComplete="email"
           required
@@ -75,7 +74,7 @@ export default function Subscribe() {
             subscriberCount > 0 ? subscriberCount.toLocaleString() : '-'
           } subscribers – `}
           <a
-            href="https://www.getrevue.co/profile/gogsi"
+            href="https://www.getrevue.co/"
             target="_blank"
             rel="noopener noreferrer"
           >

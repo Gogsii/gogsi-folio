@@ -52,9 +52,9 @@ export default function Footer() {
               Guestbook
             </a>
           </Link>
-          <Link href="/snippets">
+          <Link href="/projects">
             <a className="text-gray-500 hover:text-gray-600 transition">
-              Snippets
+              Projects
             </a>
           </Link>
           <Link href="/tweets">

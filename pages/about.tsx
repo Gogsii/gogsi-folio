@@ -19,7 +19,7 @@ export default function About() {
               Twitter: <a href="https://twitter.com/gogsii">@gogsii</a>
             </li>
             <li>
-              GitHub: <a href="https://github.com/gogsii">@gogsi</a>
+              GitHub: <a href="https://github.com/gogsii">@gogsii</a>
             </li>
             <li>
               Website:{' '}
@@ -36,45 +36,27 @@ export default function About() {
           </ul>
           <h2>Bio</h2>
           <h3>Job Title</h3>
-          <p>
-            Goran Dragutinovic, Co-Founder at Golden Ape Media | SEO @ All Star
-            Directories
-          </p>
-          <h3>Long, 3rd Person</h3>
-          <p>
-            Goran Dragutinovic is the Co-Founder at Golden Ape Media, where he
-            helps companies build and manage Google friendly websites. He is
-            also the SEO Specialist for All Star Directories. An entrepreneur by
-            nature, Goran has created websites that generated close to one
-            million monthly visits. A graduate of Finance, he fell in love with
-            the blockchain and Web3 and is currently self-learning the Solidity
-            language.
-          </p>
+          <p>Goran Dragutinovic, SEO Specialist @ All Star Directories</p>
           <h3>Long, 1st Person</h3>
           <p>
-            Hey, I'm Goran. I'm the Co-Founder at Golden Ape Media, where we
-            help companies build and manage Google friendly websites. I have
-            built websites that generated close to one million monthly visitors.
-            I'm passionate about programming and am continously learning to
-            program blockchain smart contracts with Solidity, as well as
-            practicing front-end with React, and Next.js.
-          </p>
-          <h3>Short, 3rd Person</h3>
-          <p>
-            Goran Dragutinovic is the Co-Founder at Golden Ape Media, where he
-            helps companies build and manage Google friendly websites. Also, SEO
-            specialist at All Star Directories.
+            Hey, I'm Goran. I'm the SEO Specialist at{' '}
+            <a href="">All Star Directories</a>, where my team helps developers
+            build a faster web. I'm a Next.js contributor and help lead our
+            open-source communities. I'm passionate about frontend development
+            and have created courses on React, Next.js, and web development. I'm
+            an advisor and investor in early stage startups.
           </p>
           <h3>Short, 1st Person</h3>
           <p>
-            Hey, I'm Goran. I'm SEO Specialist at All Star Directories, where I
-            help build better, more user and Google friendly sites.
+            Hey, I'm Goran. I'm the SEO Specialist at{' '}
+            <a href="">All Star Directories</a>, where my team helps developers
+            build a faster web.
           </p>
           <h3>Education</h3>
           <p>
             Goran Dragutinovic graduated from Cleveland State University with a
-            B.A. in Finance. Also completed the Full-Stack Web Development
-            bootcamp from Nucamp Coding.
+            B.A. in Finance. He also holds a Full-Stack Certificate from Nucamp
+            Coding Bootcamp.
           </p>
           <h2>Headshots</h2>
           <div className="flex space-x-8">

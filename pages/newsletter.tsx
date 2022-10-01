@@ -12,9 +12,10 @@ export default function Newsletter() {
           Newsletter
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          My newsletter provides a behind-the-scenes look into what I'm working
-          on and writing about. I frequently share some of my favorite articles
-          I've read, as well as anything fascinating about technology.
+          Once a week, I write a newsletter about the things that took place in the
+          FinTech world. There's typically a lot that happens, so
+          I mainly focus on the things I'd want to personally hear about. Sign up
+          to stay on top of events. I don't spam, but I do cry if you unsubscribe.
         </p>
         <Subscribe />
       </div>

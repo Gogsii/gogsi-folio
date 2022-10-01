@@ -15,18 +15,19 @@ export default function Home() {
           <div className="flex flex-col-reverse sm:flex-row items-start">
             <div className="flex flex-col pr-8">
               <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-1 text-black dark:text-white">
-                Goran Dragutinovic
+                Goran Dragutinović
               </h1>
               <h2 className="text-gray-700 dark:text-gray-200 mb-4">
-                Co-Founder at
-                <span className="font-semibold"> Golden Ape Media </span>| SEO
-                Specialist at{' '}
+                SEO at{' '}
                 <span className="font-semibold">All Star Directories</span>
+                {' | '}
+                Co-Founder at{' '}
+                <span className="font-semibold">Golden Ape Media</span>
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-16">
-                Helping companies build better sites for their users and Google.
-                Programming smart contracts with Solidity + front-end React /
-                Next.js.
+                Helping companies build better websites for their users and
+                Google. Programming blockchain smart contracts with Solidity (+
+                NextJS/React).
               </p>
             </div>
             <div className="w-[80px] sm:w-[176px] relative mb-8 sm:mb-0 mr-auto">
@@ -47,18 +48,18 @@ export default function Home() {
           </h3>
           <div className="flex gap-6 flex-col md:flex-row">
             <BlogPostCard
-              title="Everything I Know About Style Guides, Design Systems, and Component Libraries"
-              slug="style-guides-component-libraries-design-systems"
+              title="My Journey to Mastering Solidity & Smart Contracts"
+              slug="solidity"
               gradient="from-[#D8B4FE] to-[#818CF8]"
             />
             <BlogPostCard
-              title="Rust Is The Future of JavaScript Infrastructure"
-              slug="rust"
+              title="What I Learned from React & Redux (Thus Far)"
+              slug="react"
               gradient="from-[#6EE7B7] via-[#3B82F6] to-[#9333EA]"
             />
             <BlogPostCard
-              title="Past, Present, and Future of React State Management"
-              slug="react-state-management"
+              title="SEO Tips Every Developer Should Know"
+              slug="seo"
               gradient="from-[#FDE68A] via-[#FCA5A5] to-[#FECACA]"
             />
           </div>
@@ -83,12 +84,11 @@ export default function Home() {
           </Link>
 
           <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-16 text-black dark:text-white">
-            Learn React & Next.js
+            Watch My Journey to Solidity
           </h3>
           <p className="text-gray-600 dark:text-gray-400 mb-4">
-            Build and deploy a modern SaaS application using the most popular
-            open-source software. This course is 12 hours long and is completely
-            live streamed.
+            Watch a wanna be programmer dummy try to navigate his way through the world of
+            blockchain smart contracts, by attempting to learn the Solidity language. 
           </p>
           <VideoCard
             index="01"

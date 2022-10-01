@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '../node_modules/.pnpm/@prisma+client@4.3.1_prisma@4.3.1/node_modules/.prisma/client';
 
 // PrismaClient is attached to the `global` object in development to prevent
 // exhausting your database connection limit.
