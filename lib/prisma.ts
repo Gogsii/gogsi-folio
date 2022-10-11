@@ -1,4 +1,5 @@
-import { PrismaClient } from '../node_modules/.pnpm/@prisma+client@4.3.1_prisma@4.3.1/node_modules/.prisma/client';
+import { PrismaClient } from '@prisma/client'
+import 'dotenv/config'
 
 // PrismaClient is attached to the `global` object in development to prevent
 // exhausting your database connection limit.
@@ -6,15 +7,15 @@ import { PrismaClient } from '../node_modules/.pnpm/@prisma+client@4.3.1_prisma@
 // Learn more:
 // https://pris.ly/d/help/next-js-best-practices
 
-let prisma: PrismaClient;
+let prisma: PrismaClient
 
 if (process.env.NODE_ENV === 'production') {
-  prisma = new PrismaClient();
+  prisma = new PrismaClient()
 } else {
   if (!global.prisma) {
-    global.prisma = new PrismaClient();
+    global.prisma = new PrismaClient()
   }
-  prisma = global.prisma;
+  prisma = global.prisma
 }
 
-export default prisma;
+export default prisma
