@@ -1,9 +1,9 @@
-import { createConfig } from 'sanity';
-import { deskTool } from 'sanity/desk';
-import { markdownSchema } from 'sanity-plugin-markdown';
+import { createConfig } from 'sanity'
+import { deskTool } from 'sanity/desk'
+import { markdownSchema } from 'sanity-plugin-markdown'
 
 export default createConfig({
-  name: 'default',
+  name: 'gogsi-folio',
   title: 'dragutinov.com',
   projectId: 'nn88198u',
   dataset: 'production',
@@ -87,4 +87,4 @@ export default createConfig({
       }
     ]
   }
-});
+})
