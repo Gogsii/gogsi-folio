@@ -7,6 +7,8 @@ export default createConfig({
   title: 'dragutinov.com',
   projectId: 'nn88198u',
   dataset: 'production',
+  token: `${process.env.SANITY_API_TOKEN}`,
+  apiVersion: 'v1',
   plugins: [deskTool(), markdownSchema()],
   schema: {
     types: [
