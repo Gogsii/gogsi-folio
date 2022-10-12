@@ -1,19 +1,19 @@
-import { Suspense, useState } from 'react';
+import { Suspense, useState } from 'react'
 
-import Container from 'components/Container';
-import BlogPost from 'components/BlogPost';
-import { InferGetStaticPropsType } from 'next';
-import { indexQuery } from 'lib/queries';
-import { getClient } from 'lib/sanity-server';
-import { Post } from 'lib/types';
+import Container from 'components/Container'
+import BlogPost from 'components/BlogPost'
+import { InferGetStaticPropsType } from 'next'
+import { indexQuery } from 'lib/queries'
+import { getClient } from 'lib/sanity-server'
+import { Post } from 'lib/types'
 
 export default function Blog({
   posts
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const [searchValue, setSearchValue] = useState('');
+  const [searchValue, setSearchValue] = useState('')
   const filteredBlogPosts = posts.filter((post) =>
     post.title.toLowerCase().includes(searchValue.toLowerCase())
-  );
+  )
 
   return (
     <Container
@@ -25,7 +25,7 @@ export default function Blog({
           Blog
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          {`I've been writing online since 2014, mostly about web development and tech careers.
+          {`Here you'll see the end result of me attempting to string words together. Some days it's easier than others.
             In total, I've written ${posts.length} articles on my blog.
             Use the search below to filter by title.`}
         </p>
@@ -94,11 +94,11 @@ export default function Blog({
         </Suspense>
       </div>
     </Container>
-  );
+  )
 }
 
 export async function getStaticProps({ preview = false }) {
-  const posts: Post[] = await getClient(preview).fetch(indexQuery);
+  const posts: Post[] = await getClient(preview).fetch(indexQuery)
 
-  return { props: { posts } };
+  return { props: { posts } }
 }

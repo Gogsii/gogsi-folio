@@ -39,7 +39,7 @@ export default function Footer() {
             Twitter
           </ExternalLink>
           <ExternalLink href="https://github.com/gogsii">GitHub</ExternalLink>
-          <ExternalLink href="https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw">
+          <ExternalLink href="https://www.youtube.com/">
             YouTube
           </ExternalLink>
         </div>
