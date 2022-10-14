@@ -5,9 +5,8 @@ import { markdownSchema } from 'sanity-plugin-markdown'
 export default createConfig({
   name: 'gogsi-folio',
   title: 'dragutinov.com',
-  projectId: process.env.SANITY_STUDIO_API_PROJECT_ID,
+  projectId: 'nn88198u',
   dataset: 'production',
-  token: process.env.SANITY_API_TOKEN,
   plugins: [deskTool(), markdownSchema()],
   schema: {
     types: [
