@@ -1,16 +1,16 @@
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
-import { useTheme } from 'next-themes';
-import NextLink from 'next/link';
-import cn from 'classnames';
+import Head from 'next/head'
+import { useRouter } from 'next/router'
+import { useState, useEffect } from 'react'
+import { useTheme } from 'next-themes'
+import NextLink from 'next/link'
+import cn from 'classnames'
 
-import Footer from 'components/Footer';
-import MobileMenu from 'components/MobileMenu';
+import Footer from 'components/Footer'
+import MobileMenu from 'components/MobileMenu'
 
 function NavItem({ href, text }) {
-  const router = useRouter();
-  const isActive = router.asPath === href;
+  const router = useRouter()
+  const isActive = router.asPath === href
 
   return (
     <NextLink href={href}>
@@ -25,25 +25,25 @@ function NavItem({ href, text }) {
         <span className="capsize">{text}</span>
       </a>
     </NextLink>
-  );
+  )
 }
 
 export default function Container(props) {
-  const [mounted, setMounted] = useState(false);
-  const { resolvedTheme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false)
+  const { resolvedTheme, setTheme } = useTheme()
 
   // After mounting, we have access to the theme
-  useEffect(() => setMounted(true), []);
+  useEffect(() => setMounted(true), [])
 
-  const { children, ...customMeta } = props;
-  const router = useRouter();
+  const { children, ...customMeta } = props
+  const router = useRouter()
   const meta = {
-    title: 'Goran Dragutinovic – Blockchain Developer, SEO, creator.',
+    title: 'Goran Dragutinovic – Blockchain Developer & SEO.',
     description: `Solidity developer, JavaScript enthusiast, and entrepreneur.`,
     image: '',
     type: 'website',
     ...customMeta
-  };
+  }
 
   return (
     <div className="bg-gray-50 dark:bg-gray-900">
@@ -127,5 +127,5 @@ export default function Container(props) {
         <Footer />
       </main>
     </div>
-  );
+  )
 }
