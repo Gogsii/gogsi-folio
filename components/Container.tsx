@@ -82,6 +82,10 @@ export default function Container(props) {
             <NavItem href="/dashboard" text="Dashboard" />
             <NavItem href="/blog" text="Blog" />
             <NavItem href="/projects" text="Projects" />
+            <NavItem
+              href="https://gorangogsi.notion.site/Goran-Dragutinovic-00701bca67f643b2a12e5f4aa618bb29"
+              text="Resume"
+            />
           </div>
           <button
             aria-label="Toggle Dark Mode"

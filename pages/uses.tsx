@@ -15,14 +15,17 @@ export default function Uses() {
           Here's what tech I'm currently using for coding, videos, and music.
           Most of these have been accumulated over the past few years.
         </p>
-        <Image
+        <p className="text-gray-700 dark:text-gray-300 mt-2 mb-8">
+          I will upload a pic soon.
+        </p>
+        {/* <Image
           className="rounded-lg"
           alt={`I will upload a picture soon...`}
           src={``}
           width={2164 / 2}
           height={1546 / 2}
           priority
-        />
+        /> */}
         <div className="prose dark:prose-dark w-full">
           <h3 id="computer-office">Computer / Office</h3>
           <ul>
